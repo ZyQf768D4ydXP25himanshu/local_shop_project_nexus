@@ -1,4 +1,4 @@
-# local_shop_project_nexus
+# admin_panel
 
 A new Flutter project.
 
