@@ -1,6 +1,6 @@
 {
-    "name": "local_shop_project_nexus",
-    "short_name": "local_shop_project_nexus",
+    "name": "admin_panel",
+    "short_name": "admin_panel",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
