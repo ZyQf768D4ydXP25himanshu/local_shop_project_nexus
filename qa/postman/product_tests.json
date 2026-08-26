@@ -1,0 +1,9 @@
+{
+  "info": {
+    "name": "Product Testing Suite"
+  },
+  "tests": [
+    "pm.test('Status code is 201 Created', function () { pm.response.to.have.status(201); });",
+    "pm.test('Product created with valid ID', function () { var jsonData = pm.response.json(); pm.expect(jsonData.success).to.eql(true); pm.expect(jsonData.data).to.have.property('_id'); });"
+  ]
+}
