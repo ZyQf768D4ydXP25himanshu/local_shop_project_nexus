@@ -17,8 +17,7 @@ const userSchema = new mongoose.Schema({
         type: String,
         enum: ['customer' , 'merchant'],
         default:'customer'
-    },
-    timestamps:true
-});
+    }
+}, {timestamps:true});
 
 module.exports = mongoose.model('User',userSchema);
